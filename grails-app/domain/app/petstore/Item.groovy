@@ -30,4 +30,7 @@ class Item {
           attr4        nullable:true,  maxSize:80 
           attr5        nullable:true,  maxSize:80 
     }
+
+    String toString(){ itemid }
+    void setItemid ( String val ) { itemid = val.toUpperCase() }
 }

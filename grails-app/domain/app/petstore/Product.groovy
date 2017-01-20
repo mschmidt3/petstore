@@ -18,4 +18,7 @@ class Product {
 //         constraint fk_product_details_1 foreign key (productid)
 //        references product (productid))
     }
+
+    String toString(){ productid }
+    void setProductid ( String val ) { productid = val.toUpperCase() }
 }

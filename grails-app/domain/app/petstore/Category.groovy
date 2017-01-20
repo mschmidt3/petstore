@@ -18,4 +18,7 @@ class Category {
         descn  nullable:true,  maxSize:255 
         locale nullable:true,  maxSize:10  // char(10) not null,
     }
+    
+    String toString(){ catid }
+    void setCatid ( String val ) { catid = val.toUpperCase() }
 }
